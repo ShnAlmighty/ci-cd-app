@@ -7,4 +7,5 @@
 #     pm2 stop app
 #     pm2 delete app
 # fi
+sudo su
 pm2 kill
