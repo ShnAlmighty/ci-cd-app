@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: false }))
 
 app.get('/',(req,res)=>{
-    res.send('hello world this is ec2 speaking');
+    res.send('hello world this is ec2 speaking, nice to see you');
 })
 
 app.listen(port,(err,res)=>{
