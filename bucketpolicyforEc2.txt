@@ -1,0 +1,15 @@
+{
+    "Version": "2012-10-17",
+    "Id": "Policy1232",
+    "Statement": [
+        {
+            "Sid": "Stmt1231",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "[arn of the role assigned to the EC2 instance]"
+            },
+            "Action": "s3:*",
+            "Resource": "[arn of the s3 bucket]"
+        }
+    ]
+}
