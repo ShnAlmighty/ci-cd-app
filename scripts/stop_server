@@ -1,6 +1,6 @@
 #!/bin/bash
-isExistPm2 = `pm2 pid app`
+isExistPm2 = `pm2 stop app`
 if [[ -n  $isExistPm2 ]]; then
-    pm2 stop index.js
-    pm2 delete -s app       
+    pm2 stop app
+    pm2 delete app
 fi
