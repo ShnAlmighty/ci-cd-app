@@ -12,3 +12,4 @@ curl --silent --location https://rpm.nodesource.com/setup_12.x | sudo bash
 sudo yum install -y nodejs
 npm install
 npm install -g pm2
+pm2 kill
