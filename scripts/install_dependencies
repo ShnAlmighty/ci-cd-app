@@ -12,3 +12,4 @@ unzip iot-socket.zip
 # sudo yum install -y nodejs
 # npm install
 # npm install -g pm2
+
