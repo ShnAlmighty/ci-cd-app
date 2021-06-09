@@ -7,6 +7,7 @@
 #     pm2 stop app
 #     pm2 delete app
 # fi
+sudo su
 npm uninstall -g pm2
 #sudo su
 #pm2 kill
