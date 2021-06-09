@@ -9,5 +9,4 @@
 # fi
 
 sudo su
-npm install -g pm2
 pm2 kill
