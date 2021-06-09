@@ -1,12 +1,12 @@
 #!/bin/bash
-# isExistPm2 = `pm2 stop app`
-# if [[ -n  $isExistPm2 ]]; then
-#     pm2 stop app
-#     pm2 delete app
-#     sudo su 
-#     pm2 stop app
-#     pm2 delete app
-# fi
+isExistPm2 = `pm2 stop app`
+if [[ -n  $isExistPm2 ]]; then
+    pm2 stop app
+    pm2 delete app
+    sudo su 
+    pm2 stop app
+    pm2 delete app
+fi
 
-sudo su
-pm2 kill
+# sudo su 
+# pm2 kill
