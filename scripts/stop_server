@@ -7,6 +7,6 @@
 #     pm2 stop app
 #     pm2 delete app
 # fi
-pm2 kill
-sudo su
-pm2 kill
+npm uninstall -g pm2
+#sudo su
+#pm2 kill
